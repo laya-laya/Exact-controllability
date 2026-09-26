@@ -43,7 +43,6 @@ The project explores several aspects of network controllability:
 Consider a linear time-invariant dynamical system
 
 $$
-
 A\mathbf{x}(t)
 +
 B\mathbf{u}(t),
@@ -59,7 +58,6 @@ where
 For a finite-dimensional linear system, controllability can be analyzed through the controllability matrix
 
 $$
-
 \begin{bmatrix}
 B & AB & A^2B & \cdots & A^{N-1}B
 \end{bmatrix}.
@@ -170,7 +168,6 @@ $$
 For a controllable linear system, minimum-energy control can be analyzed using the controllability Gramian,
 
 $$
-
 \int_0^T
 e^{A(T-\tau)}
 BB^{\mathrm T}
