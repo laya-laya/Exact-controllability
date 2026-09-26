@@ -66,7 +66,7 @@ $$
 The system is controllable when
 
 $$
-\operatorname{rank}(\mathcal{C}) = N.
+\mathrm{rank}(\mathcal{C}) = N.
 $$
 
 In large complex networks, directly analyzing this condition can become computationally expensive and sensitive to the precise values of the interaction weights.
